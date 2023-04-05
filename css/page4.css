@@ -1,0 +1,224 @@
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+.header__right__side {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header_top_block {
+  width: 100%;
+  background-color: #65256f;
+}
+
+.header_top_block .container {
+  display: flex;
+  height: 35px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_top_block .container h2 {
+  font-size: 16px;
+  color: #ffb700;
+  font-weight: 400;
+  font-family: "Gilroy";
+  font-size: 14px;
+}
+.header__title__help {
+  font-size: 16px;
+  color: #ffff;
+  font-weight: 400;
+  font-family: "Gilroy";
+  font-size: 14px;
+  margin-right: 13px;
+  padding-bottom: 1px;
+}
+.header__contact__number {
+  font-size: 16px;
+  color: #ffb700;
+  font-weight: 400;
+  font-family: "Gilroy";
+  font-size: 14px;
+  text-decoration: none;
+  /* align-self: center; */
+}
+
+/* nav */
+.nav__box {
+  display: flex;
+}
+.nav__container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+.ul__box {
+  display: flex;
+}
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu_item {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 500;
+  font-size: 12px;
+  color: rgba(42, 40, 40, 1);
+  margin-right: 60px;
+}
+.btn {
+  width: 150px;
+  height: 35px;
+  background-color: #65256f;
+  border-radius: 4px;
+  border-color: #65256f;
+  color: #fff;
+  /* margin-bottom: 20px;  */
+}
+.column_general {
+  width: 100%;
+  margin-top: 3%;
+}
+
+.column_general .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts4 h3 {
+  font-family: "Gilroy", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: left;
+  color: #000000;
+  height: 42px;
+  width: 159px;
+}
+.p2 {
+  font-family: "Gilroy", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 20px;
+  color: #000000;
+}
+.icon_img {
+  display: flex;
+  flex-direction: column;
+  margin-top: 21%;
+  gap: 7vh;
+}
+
+#icon_id1 {
+  height: 20px;
+  width: 20px;
+}
+
+#icon_id2 {
+  height: 20px;
+  width: 20px;
+}
+
+#icon_id3 {
+  height: 20px;
+  width: 20px;
+}
+
+.break_column {
+  display: flex;
+}
+
+.inform_words li {
+  list-style-type: none;
+}
+.stay_column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  margin-top: 15%;
+}
+
+.words_informatione {
+  font-family: "Gilroy", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #a4a4a4;
+  height: 28px;
+  width: 105px;
+  margin-top: 25%;
+  line-height: 1;
+  text-decoration: none;
+}
+.inform_words p {
+  font-family: "Gilroy", sans-serif;
+  font-size: 11px;
+  font-weight: 200;
+  color: black;
+  height: 42px;
+  width: 200px;
+  margin-top: 3%;
+}
+
+#pppppp {
+  width: 125px;
+}
+.map_photo img {
+  width: 760px;
+  height: 600px;
+}
+.main__footer {
+  background-color: #3a3a3a;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding-top: 60px;
+  margin-top: 40px;
+}
+/* .footer {
+  width: 85%;
+} */
+.footer__lorem {
+  line-height: 2;
+  font-family: "Gilroy";
+  font-weight: 400;
+  font-size: 11px;
+}
+.footer__box {
+  width: 200px;
+  height: 100px;
+  margin-left: 50px;
+}
+.footer__title {
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 16px;
+  text-align: start;
+  color: #fff;
+}
+/* .footer__lorem {
+   ma-top: 100px;
+ } */
+p {
+  padding-top: 10px;
+  color: #fff;
+  font-family: "Gilroy";
+  font-weight: 400;
+  font-size: 10px;
+}
